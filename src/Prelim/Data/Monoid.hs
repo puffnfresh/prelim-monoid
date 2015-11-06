@@ -1,3 +1,5 @@
+{-# LANGUAGE NoImplicitPrelude #-}
+
 module Prelim.Data.Monoid(
   Monoid(identity)
 ) where
