@@ -34,7 +34,7 @@ instance Monoid [a] where
   identity =
     Monoid.mempty
 
-instance Monoid a => Monoid (Maybe a) where
+instance Semigroup a => Monoid (Maybe a) where
   identity =
     Nothing
     
